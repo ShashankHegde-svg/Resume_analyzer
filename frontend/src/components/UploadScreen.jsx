@@ -1,7 +1,7 @@
 import { useState, useRef } from 'react'
 import axios from 'axios'
 
-const API = 'http://localhost:8000'
+const API = 'https://reimagined-fiesta-pjv4jpjxgx4c995w-8000.app.github.dev'
 
 export default function UploadScreen({ onResult }) {
   const [pasteMode, setPasteMode] = useState(false)
