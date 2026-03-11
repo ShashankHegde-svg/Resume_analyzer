@@ -1,0 +1,185 @@
+{
+  "python": {
+    "skill": "Python",
+    "estimated_hours": 40,
+    "weeks": [
+      {
+        "week": 1,
+        "focus": "Python Fundamentals",
+        "resources": [
+          {"title": "Python for Everybody (Coursera)", "url": "https://www.coursera.org/specializations/python", "type": "course"},
+          {"title": "Python Official Tutorial", "url": "https://docs.python.org/3/tutorial/", "type": "docs"}
+        ],
+        "mini_project": "Build a CLI to-do list manager"
+      },
+      {
+        "week": 2,
+        "focus": "OOP & Libraries",
+        "resources": [
+          {"title": "Python OOP - Corey Schafer (YouTube)", "url": "https://www.youtube.com/watch?v=ZDa-Z5JzLYM", "type": "video"},
+          {"title": "Real Python Tutorials", "url": "https://realpython.com", "type": "docs"}
+        ],
+        "mini_project": "Build a simple inventory management system"
+      }
+    ]
+  },
+  "react": {
+    "skill": "React",
+    "estimated_hours": 35,
+    "weeks": [
+      {
+        "week": 1,
+        "focus": "React Basics & JSX",
+        "resources": [
+          {"title": "React Official Docs (react.dev)", "url": "https://react.dev/learn", "type": "docs"},
+          {"title": "React Course - freeCodeCamp (YouTube)", "url": "https://www.youtube.com/watch?v=bMknfKXIFA8", "type": "video"}
+        ],
+        "mini_project": "Build a weather app using a public API"
+      },
+      {
+        "week": 2,
+        "focus": "Hooks, State & API Integration",
+        "resources": [
+          {"title": "React Hooks - Web Dev Simplified", "url": "https://www.youtube.com/watch?v=O6P86uwfdR0", "type": "video"},
+          {"title": "React Query Docs", "url": "https://tanstack.com/query/latest", "type": "docs"}
+        ],
+        "mini_project": "Build a movie search app with favourites"
+      }
+    ]
+  },
+  "docker": {
+    "skill": "Docker",
+    "estimated_hours": 12,
+    "weeks": [
+      {
+        "week": 1,
+        "focus": "Docker Fundamentals",
+        "resources": [
+          {"title": "Docker in 1 Hour - TechWorld (YouTube)", "url": "https://www.youtube.com/watch?v=pg19Z8LL06w", "type": "video"},
+          {"title": "Docker Official Docs", "url": "https://docs.docker.com/get-started/", "type": "docs"}
+        ],
+        "mini_project": "Containerize a simple Node.js or Python app"
+      },
+      {
+        "week": 2,
+        "focus": "Docker Compose & Deployment",
+        "resources": [
+          {"title": "Docker Compose Tutorial (YouTube)", "url": "https://www.youtube.com/watch?v=HG6yIjZapSA", "type": "video"},
+          {"title": "Awesome Docker GitHub", "url": "https://github.com/veggiemonk/awesome-docker", "type": "docs"}
+        ],
+        "mini_project": "Deploy a multi-container app with postgres + backend"
+      }
+    ]
+  },
+  "sql": {
+    "skill": "SQL",
+    "estimated_hours": 20,
+    "weeks": [
+      {
+        "week": 1,
+        "focus": "SQL Basics & Queries",
+        "resources": [
+          {"title": "SQL Tutorial - W3Schools", "url": "https://www.w3schools.com/sql/", "type": "docs"},
+          {"title": "SQL for Beginners - freeCodeCamp (YouTube)", "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY", "type": "video"}
+        ],
+        "mini_project": "Design a library database and write 20 queries"
+      },
+      {
+        "week": 2,
+        "focus": "Advanced SQL & Optimization",
+        "resources": [
+          {"title": "Mode SQL Tutorial", "url": "https://mode.com/sql-tutorial/", "type": "course"},
+          {"title": "PostgreSQL Exercises", "url": "https://pgexercises.com", "type": "docs"}
+        ],
+        "mini_project": "Build an analytics dashboard with complex joins"
+      }
+    ]
+  },
+  "aws": {
+    "skill": "AWS",
+    "estimated_hours": 30,
+    "weeks": [
+      {
+        "week": 1,
+        "focus": "AWS Core Services",
+        "resources": [
+          {"title": "AWS Free Tier", "url": "https://aws.amazon.com/free/", "type": "docs"},
+          {"title": "AWS Essentials - freeCodeCamp (YouTube)", "url": "https://www.youtube.com/watch?v=ubCNZFQZZbE", "type": "video"}
+        ],
+        "mini_project": "Deploy a static website on S3 with CloudFront"
+      },
+      {
+        "week": 2,
+        "focus": "EC2, Lambda & RDS",
+        "resources": [
+          {"title": "AWS Lambda Tutorial", "url": "https://www.youtube.com/watch?v=97q30JjEq9Y", "type": "video"},
+          {"title": "AWS Documentation", "url": "https://docs.aws.amazon.com", "type": "docs"}
+        ],
+        "mini_project": "Build a serverless REST API with Lambda + API Gateway"
+      }
+    ]
+  },
+  "machine learning": {
+    "skill": "Machine Learning",
+    "estimated_hours": 50,
+    "weeks": [
+      {
+        "week": 1,
+        "focus": "ML Fundamentals & Math",
+        "resources": [
+          {"title": "Machine Learning by Andrew Ng (Coursera)", "url": "https://www.coursera.org/learn/machine-learning", "type": "course"},
+          {"title": "ML Crash Course - Google", "url": "https://developers.google.com/machine-learning/crash-course", "type": "docs"}
+        ],
+        "mini_project": "Build a linear regression model from scratch"
+      },
+      {
+        "week": 2,
+        "focus": "scikit-learn & Real Datasets",
+        "resources": [
+          {"title": "Scikit-learn Docs", "url": "https://scikit-learn.org/stable/", "type": "docs"},
+          {"title": "Kaggle Learn ML", "url": "https://www.kaggle.com/learn/machine-learning", "type": "course"}
+        ],
+        "mini_project": "Predict house prices using the Boston dataset"
+      }
+    ]
+  },
+  "typescript": {
+    "skill": "TypeScript",
+    "estimated_hours": 15,
+    "weeks": [
+      {
+        "week": 1,
+        "focus": "TypeScript Basics",
+        "resources": [
+          {"title": "TypeScript Handbook", "url": "https://www.typescriptlang.org/docs/handbook/intro.html", "type": "docs"},
+          {"title": "TypeScript Full Course - freeCodeCamp", "url": "https://www.youtube.com/watch?v=30LWjhZzg50", "type": "video"}
+        ],
+        "mini_project": "Rewrite an existing JS project in TypeScript"
+      }
+    ]
+  },
+  "nodejs": {
+    "skill": "Node.js",
+    "estimated_hours": 25,
+    "weeks": [
+      {
+        "week": 1,
+        "focus": "Node.js & Express Basics",
+        "resources": [
+          {"title": "Node.js Crash Course - Traversy Media", "url": "https://www.youtube.com/watch?v=fBNz5xF-Kx4", "type": "video"},
+          {"title": "Node.js Official Docs", "url": "https://nodejs.org/en/docs/", "type": "docs"}
+        ],
+        "mini_project": "Build a REST API for a blog with CRUD operations"
+      },
+      {
+        "week": 2,
+        "focus": "Authentication & Databases",
+        "resources": [
+          {"title": "JWT Authentication Tutorial", "url": "https://www.youtube.com/watch?v=mbsmsi7l3r4", "type": "video"},
+          {"title": "Mongoose ODM Docs", "url": "https://mongoosejs.com/docs/", "type": "docs"}
+        ],
+        "mini_project": "Add JWT auth and MongoDB to your blog API"
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "resume_analyzer",
+  "version": "1.0.0",
+  "description": "a resume analyser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShashankHegde-svg/Resume_analyzer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ShashankHegde-svg/Resume_analyzer/issues"
+  },
+  "homepage": "https://github.com/ShashankHegde-svg/Resume_analyzer#readme"
+}
